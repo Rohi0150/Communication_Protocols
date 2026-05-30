@@ -1,6 +1,11 @@
 /* Bit banging I2C : 
  * SDA Pin : PK0
  * SCL Pin : PK1     */
+
+#include "gpio.h"
+#include "timer0.h"
+#include "timer1.h"
+
 //functions : 
 void sda_low(void);
 void sda_release(void);
